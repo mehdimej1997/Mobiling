@@ -1,8 +1,7 @@
-import { ButtonHTMLAttributes, DetailsHTMLAttributes, ReactNode } from "react";
+import { DetailsHTMLAttributes, ReactNode } from "react";
 import { cn } from "../../utils";
 
-interface ButtonProps
-  extends DetailsHTMLAttributes<ButtonHTMLAttributes<HTMLButtonElement>> {
+interface ButtonProps extends DetailsHTMLAttributes<HTMLButtonElement> {
   icon?: ReactNode;
 }
 
