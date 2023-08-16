@@ -9,6 +9,7 @@ interface ButtonProps
 export function Button({ icon, ...props }: ButtonProps) {
   return (
     <button
+      {...props}
       className={cn(
         "bg-blue-500 py-2 px-6 rounded-lg text-white font-medium",
         props.className

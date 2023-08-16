@@ -39,12 +39,10 @@ export function Navbar() {
       <>
         <Button
           icon={
-            <BurgerMenuIcon
-              className="h-10 w-10 p-1"
-              onClick={handleNavbarState}
-            />
+            <BurgerMenuIcon className="h-10 w-10 p-1"/>
           }
           className="p-0 bg-transparent md:hidden block hover:bg-blue-500/30"
+          onClick={handleNavbarState}
         />
         <ul
           ref={navbarRef}
