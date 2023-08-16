@@ -43,7 +43,7 @@ const DATA = [
 
 function renderCardElements(icon: ReactNode, text: ReactNode, index: number) {
   return (
-    <div className="flex flex-col items-center">
+    <div key={index} className="flex flex-col items-center">
       {icon}
       <Typographie
         variant="label"
