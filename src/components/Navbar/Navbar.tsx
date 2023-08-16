@@ -18,7 +18,7 @@ export function Navbar() {
 
   return (
     <nav className="flex justify-between items-center h-[120px] relative">
-      <img src="/images/logo.png" width={120} height={45} alt="mobilink" />
+      <img src="images/logo.png" width={120} height={45} alt="mobilink" />
       <ul className="md:flex hidden text-label font-medium">
         <li className="border-b-[1px] text-dark-blue border-dark-blue px-5 py-2">
           <span>Home</span>

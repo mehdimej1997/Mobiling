@@ -50,14 +50,14 @@ export function Header() {
             <div className="col-span-7 flex flex-col space-y-4 items-center after:content-[''] after:h-full after:w-80  after:absolute after:top-0 after:-z-10 after:bg-morphism/5">
               <div className="relative">
                 <img
-                  src="/images/rounded_text.png"
+                  src="images/rounded_text.png"
                   alt="text"
                   className="animate-spin"
                   style={{ animationDuration: "10s" }}
                 />
                 <StarIcon className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 " />
               </div>
-              <img src="/images/bmw.png" alt="bmw series 3" />
+              <img src="images/bmw.png" alt="bmw series 3" />
             </div>
           </div>
         </div>
