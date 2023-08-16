@@ -41,7 +41,7 @@ const DATA = [
   },
 ];
 
-function renderCardElements(icon: ReactNode, text: ReactNode) {
+function renderCardElements(icon: ReactNode, text: ReactNode, index: number) {
   return (
     <div className="flex flex-col items-center">
       {icon}
@@ -102,7 +102,7 @@ export function MobileSocial() {
         </div>
         <Card className="bg-gray-200 lg:w-[400px] w-full lg:justify-self-end">
           <Card.Content className="grid grid-cols-2 gap-8 text-center">
-            {DATA.map((item) => renderCardElements(item.icon, item.label))}
+            {DATA.map((item, i) => renderCardElements(item.icon, item.label, i))}
           </Card.Content>
         </Card>
       </div>
