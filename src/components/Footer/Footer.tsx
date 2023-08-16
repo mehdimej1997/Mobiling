@@ -14,7 +14,7 @@ export function Footer() {
           <ul className="space-y-6">
             <li>
               <img
-                src="/images/logo_mono.png"
+                src="images/logo_mono.png"
                 alt="mobiling"
                 height={45}
                 width={120}
